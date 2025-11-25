@@ -1,0 +1,7 @@
+Bundle-Name: liferay-template-import
+Bundle-SymbolicName: com.liferay.template.importer
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.template.importer.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"
