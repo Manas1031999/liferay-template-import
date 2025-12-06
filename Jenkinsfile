@@ -38,10 +38,11 @@ pipeline {
         }
       }
     }
-    post {
+    
+  
+  }
+  post {
        success { echo "Build and deploy finished." }
       failure { echo "Build failed." }
     }
-  
-  }
 }
