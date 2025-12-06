@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'windows' }
+  agent any
 
   environment {
     LIFERAY_DEPLOY_PATH = 'C:\\Users\\Bikram\\Downloads\\Manas Halder CV\\liferay-dxp-tomcat-2023.q4.4-1706605532\\liferay-dxp\\deploy\\'
